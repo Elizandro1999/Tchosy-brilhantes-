@@ -1,0 +1,31 @@
+{
+    "format": "deffe-project-export-v1",
+    "project_id": 21337,
+    "project_name": "Excelência Agropecuária Angolana",
+    "generated_at": "2026-07-14T23:04:51+00:00",
+    "generated_by_user_id": 725,
+    "public_url": "https://excelencia-agropecuaria-angolana-21337.deffe.com",
+    "includes": {
+        "project_files": true,
+        "database_schema_sql": true
+    },
+    "excludes": [
+        ".env",
+        ".deffe/",
+        ".git/",
+        "vendor/",
+        "node_modules/",
+        "storage/framework/",
+        "storage/logs/",
+        "*.sqlite",
+        "*.sqlite3",
+        "database rows / live content data"
+    ],
+    "schema": {
+        "status": "ready",
+        "database": "deffe_21337",
+        "method": "ssh_wrapper",
+        "warning": null,
+        "warning_code": null
+    }
+}
